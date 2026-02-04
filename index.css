@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: "Inter", "Noto Serif SC", serif;
+  background-color: #fdfdfd;
+}
+
+.text-yushi-orange {
+  color: #e68a2e;
+}
+
+.bg-yushi-orange {
+  background-color: #e68a2e;
+}
+
+.border-yushi-orange {
+  border-color: #e68a2e;
+}
