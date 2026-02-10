@@ -134,9 +134,10 @@ const App: React.FC = () => {
         <div className="space-y-3">
           <div className="flex items-center space-x-2">
             <div className="w-1.5 h-7 bg-[#f09c48] rounded-full"></div>
-            <h2 className="text-xl font-black text-gray-900 tracking-tight">医学实习费用+住宿</h2>
+            {/* <h2 className="text-xl font-black text-gray-900 tracking-tight">医学实习费用+住宿</h2> */}
+            <h2 className="text-xl font-black text-gray-900 tracking-tight">医学实习住宿</h2>
           </div>
-          <div className="grid grid-cols-2 gap-2">
+          {/* <div className="grid grid-cols-2 gap-2">
             {PRICING_LIST.map((p, idx) => (
               <div key={idx} className="bg-white p-3 rounded-2xl border border-orange-50 shadow-sm text-center">
                 <p className="text-xs text-gray-400 font-black mb-0.5">{p.duration}</p>
@@ -149,15 +150,15 @@ const App: React.FC = () => {
               <Info className="w-4 h-4 mr-2 shrink-0" />
               PS: 如果希望观摩手术，可升级套餐 +1w rmb/周
             </p>
-          </div>
+          </div> */}
         </div>
 
         {/* Accommodation - Reduced p */}
         <div className="space-y-3">
-          <div className="flex items-center space-x-2">
+          {/* <div className="flex items-center space-x-2">
             <Home className="w-6 h-6 text-[#f09c48]" />
             <h3 className="text-lg font-black text-gray-900 tracking-tight">住宿环境</h3>
-          </div>
+          </div> */}
           <div className="bg-white p-4 rounded-2xl border border-gray-100 shadow-sm">
             <p className="text-sm text-gray-600 font-bold leading-snug">
               住宿地点位于伦敦大学校园内。我们通常安排UCL花园宿舍或其他伦敦大学学院间学生宿舍，地理位置优越，安全舒适。
@@ -173,7 +174,7 @@ const App: React.FC = () => {
         </div>
 
         {/* Other Fees - Reduced dividers and internal spaces */}
-        <div className="space-y-3">
+        {/* <div className="space-y-3">
           <div className="flex items-center space-x-2">
             <div className="w-1.5 h-7 bg-[#f09c48] rounded-full"></div>
             <h2 className="text-xl font-black text-gray-900 tracking-tight">其他费用预计</h2>
@@ -210,7 +211,7 @@ const App: React.FC = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
       </section>
 
       {/* 3. Ending Section - Significantly shortened footer */}
